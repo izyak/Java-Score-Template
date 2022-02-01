@@ -28,7 +28,7 @@ The output jar will be located at `./hello-world/build/libs/hello-world-0.1.0-op
 
 ### 3. Deploy the optimized jar
 
-You can deploy using either of the following commands. The `build.gradle` in `hello-world` has 4 endpoints included. To deploy on Sejong, run the following command. To deploy on other networks, for example Lison, change `deployToSejong` to 'deployToLisbon'. :)
+You can deploy using either of the following commands. The `build.gradle` in `hello-world` has 4 endpoints included. To deploy on Sejong, run the following command. To deploy on other networks, for example Lison, change `deployToSejong` to `deployToLisbon`.
 
 1. 
     ```sh
