@@ -33,14 +33,15 @@ You can deploy using either of the following commands. The `build.gradle` in `he
 1. 
     ```sh
     ./gradlew hello-world:deployToSejong -PkeystoreName=<your_wallet_json> -PkeystorePass=<password>
-    # --- #
+    # example below
     ./gradlew hello-world:deployToSejong -PkeystoreName='JavaTest' -PkeystorePass='p@ssw0rd'
 
     ```
+
+To use the following command, make sure you have `gradle.properties` file with KeyWallet and password linked.
 
 2. 
     ```sh
     ./gradlew hello-world:deployToSejong
 
     ```
-To use this second command, make you you have `gradle.properties` file with KeyWallet and password linked.
