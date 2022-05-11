@@ -4,7 +4,26 @@ This repository contains template of a java SCORE and instructions on how to dep
 
 
 ## How to Run
+### A. IntelliJ IDEA
+If you are using Intellij IDEA, then you don't need to manually run the following steps.
 
+- First, download gradle dependencies. When you open the project in intellij, 
+there will be an option to do so. You might need to click the elephant refresh button, 
+which appears on top right after download.
+- On doing this, a small blue square will be seen on the hello-world folder structure.
+- Gradle tab will now be visible on the left side. Click the gradle tab.
+- Expand `hello-world` by clicking it.
+- Expand build and deployment.
+- Double-click on build cogwheel to build the project.
+- Double-click on optimizedJar to build optimized jar.
+- Give absolute path of keystore file in gradle.properties.
+```shell
+keystoreName=/home/username/Java-Score-Template/JavTest.json
+```
+- Under deployment, double-click deployToSejong to deploy.
+
+### B. TERMINAL
+If you're not using Intellij IDEA, follow the following steps to deploy the Hello World contract.
 ### 1. Build the project
 
 ```
